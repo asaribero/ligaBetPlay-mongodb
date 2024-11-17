@@ -1,0 +1,4 @@
+[
+    { "_id": "A201", "nombre": "Fernando López", "edad": 35, "partidos_arbitrados": ["M301", "M302"] },
+    { "_id": "A202", "nombre": "Carlos Ruiz", "edad": 40, "partidos_arbitrados": ["M303"] }
+]

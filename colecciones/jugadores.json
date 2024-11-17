@@ -1,0 +1,5 @@
+[
+    { "_id": "J101", "nombre": "Luis Suárez", "posición": "Delantero", "goles": 8, "asistencias": 3, "equipo_id": "E1" },
+    { "_id": "J102", "nombre": "Andrés Llinás", "posición": "Defensa", "goles": 2, "asistencias": 1, "equipo_id": "E2" },
+    { "_id": "J103", "nombre": "Adrián Ramos", "posición": "Delantero", "goles": 6, "asistencias": 2, "equipo_id": "E3" }
+]

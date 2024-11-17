@@ -1,0 +1,7 @@
+[
+    { "_id": "E1", "nombre": "Atlético Nacional", "ciudad": "Medellín", "entrenador": "Jorge Almirón" },
+    { "_id": "E2", "nombre": "Millonarios FC", "ciudad": "Bogotá", "entrenador": "Alberto Gamero" },
+    { "_id": "E3", "nombre": "América de Cali", "ciudad": "Cali", "entrenador": "Lucas González" },
+    { "_id": "E4", "nombre": "Deportivo Cali", "ciudad": "Cali", "entrenador": "Jorge Luis Pinto" },
+    { "_id": "E5", "nombre": "Junior de Barranquilla", "ciudad": "Barranquilla", "entrenador": "Arturo Reyes" }
+]
