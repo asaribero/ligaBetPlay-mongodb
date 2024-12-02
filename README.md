@@ -64,3 +64,5 @@ db.getMongo().setReadPref("secondary");
 db.jugadores.find();
 •	Resultado Esperado: Los nodos secundarios devuelven los datos disponibles en la base de datos.
 
+## Video Explicativo actidad 2
+[Ver video] = https://laiberocol-my.sharepoint.com/:v:/g/personal/aamazoro_estudiante_ibero_edu_co/EW3PCbekWgZHpgUhWK3iXlIBkCGxskMOsa_MwNIrfthKaw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=35NAQ9

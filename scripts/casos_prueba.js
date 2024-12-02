@@ -1,4 +1,4 @@
-// Prueba 1: Insertar un documento en el nodo primario
+// Caso de Prueba 1: Insertar un documento en el nodo primario
 print("Insertando documento en el primario...");
 db.equipos.insertOne({
   "_id": "E6",
@@ -7,10 +7,18 @@ db.equipos.insertOne({
   "entrenador": "Harold Rivera"
 });
 
-// Prueba 2: Consultar el documento en los nodos secundarios
-print("Habilitando lectura desde nodos secundarios...");
-db.getMongo().setSlaveOk();
+
+print("Comando para consultar desde un secundario");
+db.getMongo().setReadPref("secondary");
 
 print("Consultando documento desde nodo secundario...");
 var resultado = db.equipos.find({ "_id": "E6" });
 printjson(resultado.toArray());
+
+// Caso de Prueba 2: Elección de un Nuevo Nodo Primario
+rs.status();
+
+// Caso de Prueba 3: Disponibilidad de Lecturas en Secundarios
+
+db.getMongo().setReadPref("secondary");
+db.jugadores.find();
